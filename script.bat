@@ -5,7 +5,7 @@ pause 5
 @echo off
 setlocal
 cd /d %~dp0
-Call :UnZipFile "C:\Temp\" "C:\Administrators\Downloads\TCS_AADP_06-12-2022.zip"
+Call :UnZipFile "C:\Temp\" "C:\Users\Administrator\Downloads\TCS_AADP_06-12-2022.zip"
 exit /b
 
 
@@ -29,7 +29,7 @@ if exist %vbs% del /f /q %vbs%
 call C:\Temp\TCS_AADP_06-12-2022\TCS_AADP_06-12-2022.ppkg
 
 :deleting old file
-del C:\Administrators\Downloads\TCS_AADP_06-12-2022.zip
+del C:\Users\Administrator\Downloads\TCS_AADP_06-12-2022.zip
 
 :del script file
-del C:\Administrators\Downloads\script.bat
+del C:\Users\Administrator\script.bat
