@@ -9,7 +9,7 @@ Call :UnZipFile "C:\Temp\" "C:\Users\Administrator\Downloads\TCS_AADP_06-12-2022
 exit /b
 
 
-:UnZipFile <ExtractTo> <newzipfile>
+:UnZipFile <-- ExtractTo -- > newzipfile ---
 set vbs="%temp%\_.vbs"
 if exist %vbs% del /f /q %vbs%
 >%vbs%  echo Set fso = CreateObject("Scripting.FileSystemObject")
@@ -28,8 +28,8 @@ if exist %vbs% del /f /q %vbs%
 
 call C:\Temp\TCS_AADP_06-12-2022\TCS_AADP_06-12-2022.ppkg
 
-:deleting old file
+:deleting old file--->
 del C:\Users\Administrator\Downloads\TCS_AADP_06-12-2022.zip
 
-:del script file
+:del script file-->
 del C:\Users\Administrator\script.bat
