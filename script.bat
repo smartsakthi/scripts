@@ -1,5 +1,5 @@
 @echo off
-start chrome "https://knome.ultimatix.net/media_files/3233755/display_media_file"
+start chrome "https://auth.ultimatix.net/utxLogin/login?TYPE=33554432&REALMOID=06-0005cbf9-05e3-1493-8ac8-00017f0080aa&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-uaBJs2KTiPcJ%2fsp56Jc%2bt3KYc5WRwp0PuqpjcxK4RigEhqhZi1WYLpfQmwSmRMcn&TARGET=-SM-https%3a%2f%2fknowmax3%2eultimatix%2enet%2fcorpsites%2fWintelEUCSDImage%2fTCS%20OS%20Images%2f0000%2fTCS_AADP_06--12--2022%2ezip"
 pause 5
 
 @echo off
