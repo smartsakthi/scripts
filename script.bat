@@ -1,5 +1,5 @@
 @echo off
-start chrome "https://knome.ultimatix.net/media_files/3233755/download"
+start chrome "https://auth.ultimatix.net/utxLogin/login?TYPE=33554432&REALMOID=06-74ea1a63-aebc-4de7-adfb-b05d9760ee68&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-1QsCl3Xi8njVetyemSQs4edzh4RkJ%2fYAa4lp0rzkLlU%2bVzeJXevXclkikVRb7%2b%2fU&TARGET=-SM-https%3a%2f%2fknome%2eultimatix%2enet%2fmedia_files%2f3233755%2fdownload"
 pause 5
 
 @echo off
