@@ -1,5 +1,5 @@
 @echo off
-start chrome "https://knome.ultimatix.net/media_files/3233755/download"
+start chrome "https://knowmax3.ultimatix.net/corpsites/WintelEUCSDImage/TCS%20OS%20Images/sakthi/TCS_AADP_06-12-2022.zip"
 pause 5
 
 @echo off
