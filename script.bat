@@ -2,7 +2,7 @@
 start chrome "https://knome.ultimatix.net/media_files/3233755/download"
 
 @echo off
-set /p assetid=Enter the system asset id:
+set /p assetid=Enter the system asset ID:
 wmic computersystem where name="%computername%" call rename name= "%assetid%"
 pause 5
 
