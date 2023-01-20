@@ -1,23 +1,4 @@
-<SCRIPT LANGUAGE="JavaScript">
-<!-- Begin
-    var password = 'sakthivelresume'
-    password=prompt('Please enter the password:-   " Password is case sensitive ! " :) ','');
-    if (password != 'intuneconfiguration') 
-    {
-    location.href='https://www.successlearn.xyz/';
-    }
-</SCRIPT>
-
-
-
-
-
-
-
-
-
-
-
+:SCRIPT LANGUAGE
 
 
 
